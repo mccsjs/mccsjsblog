@@ -1,0 +1,9 @@
+CREATE TABLE IF NOT EXISTS comics (
+    id SERIAL PRIMARY KEY,
+    name VARCHAR(255) NOT NULL,
+    url VARCHAR(500) NOT NULL,
+    cover VARCHAR(500) DEFAULT '',
+    sort INT DEFAULT 0,
+    created_at TIMESTAMP DEFAULT NOW(),
+    updated_at TIMESTAMP DEFAULT NOW()
+);

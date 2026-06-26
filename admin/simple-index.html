@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>管理系统</title>
+    <script>
+        // 配置 API 地址
+        window.API_URL = "/api/v1";
+    </script>
+</head>
+<body>
+    <div id="app">
+        <h1>管理系统</h1>
+        <p>正在加载...</p>
+    </div>
+    <script>
+        // 简单的加载指示器
+        document.addEventListener("DOMContentLoaded", function() {
+            const app = document.getElementById("app");
+            app.innerHTML = "<h1>管理系统</h1><p>系统正在运行中...</p><p>API 配置: " + window.API_URL + "</p>";
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,42 @@
+<svg width="900" height="500" xmlns="http://www.w3.org/2000/svg">
+<style>
+text{
+font-family:"Microsoft YaHei","PingFang SC",sans-serif;
+fill:#333;
+}
+.box{
+fill:#fff;
+stroke:#333;
+stroke-width:2;
+rx:12;
+}
+</style>
+
+<rect class="box" x="330" y="50" width="240" height="70"/>
+<text x="450" y="95" text-anchor="middle" font-size="28">用户目标</text>
+
+<line x1="450" y1="120" x2="450" y2="180" stroke="#333" stroke-width="2"/>
+<polygon points="450,190 442,175 458,175" fill="#333"/>
+
+<rect class="box" x="300" y="190" width="300" height="90"/>
+<text x="450" y="235" text-anchor="middle" font-size="34">Agent</text>
+<text x="450" y="265" text-anchor="middle" font-size="18">智能体</text>
+
+<line x1="450" y1="280" x2="450" y2="330" stroke="#333" stroke-width="2"/>
+
+<line x1="450" y1="330" x2="220" y2="330" stroke="#333" stroke-width="2"/>
+<line x1="450" y1="330" x2="450" y2="330" stroke="#333" stroke-width="2"/>
+<line x1="450" y1="330" x2="680" y2="330" stroke="#333" stroke-width="2"/>
+
+<line x1="220" y1="330" x2="220" y2="370" stroke="#333" stroke-width="2"/>
+<line x1="450" y1="330" x2="450" y2="370" stroke="#333" stroke-width="2"/>
+<line x1="680" y1="330" x2="680" y2="370" stroke="#333" stroke-width="2"/>
+
+<rect class="box" x="140" y="370" width="160" height="60"/>
+<rect class="box" x="370" y="370" width="160" height="60"/>
+<rect class="box" x="600" y="370" width="160" height="60"/>
+
+<text x="220" y="408" text-anchor="middle" font-size="24">搜索信息</text>
+<text x="450" y="408" text-anchor="middle" font-size="24">分析判断</text>
+<text x="680" y="408" text-anchor="middle" font-size="24">执行任务</text>
+</svg>
