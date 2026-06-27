@@ -1,4 +1,4 @@
-# mccsjsBlog
+
 基于 https://github.com/talen8/FlecBlog.git 二次开发。
 
 爱来自爱吃鱼的猫：https://blog.talen.top
